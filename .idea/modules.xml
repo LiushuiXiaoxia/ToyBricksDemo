@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/ToyBricksDemo.iml" filepath="$PROJECT_DIR$/ToyBricksDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ToyBricksDemo.iml" filepath="$PROJECT_DIR$/.idea/modules/ToyBricksDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/lib1/lib1.iml" filepath="$PROJECT_DIR$/lib1/lib1.iml" />
       <module fileurl="file://$PROJECT_DIR$/lib2/lib2.iml" filepath="$PROJECT_DIR$/lib2/lib2.iml" />

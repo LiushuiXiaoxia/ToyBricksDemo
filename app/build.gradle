@@ -24,13 +24,17 @@ dependencies {
     compile 'com.android.support:appcompat-v7:25.3.1'
     compile 'com.android.support.constraint:constraint-layout:1.0.2'
 
-//    compile project(':lib1')
-//    compile project(':lib2')
+    compile project(':lib1')
+    compile project(':lib2')
 
-    compile 'cn.mycommons:lib1:0.1'
-    compile 'cn.mycommons:lib2:0.1'
+//    compile 'cn.mycommons:lib1:0.1'
+//    compile 'cn.mycommons:lib2:0.1'
+    compile 'com.github.snowdream:annotation:0.7@aar'
+    compile "com.github.snowdream:toybricks:0.9.10@aar"
 
     compile 'com.github.snowdream.toybricks:annotation:0.9.10'
     annotationProcessor 'com.github.snowdream.toybricks:processor:0.9.10'
 //    compile 'com.github.snowdream:toybricks:0.9.10'
 }
+
+apply plugin: 'com.github.snowdream.toybricks'
