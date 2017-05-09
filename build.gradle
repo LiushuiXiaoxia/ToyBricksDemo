@@ -2,7 +2,7 @@
 
 buildscript {
     repositories {
-        jcenter()
+        jcenter { url "http://jcenter.bintray.com/"}
         maven { url uri("${project.rootDir.absolutePath}/repo") }
     }
 
@@ -11,6 +11,7 @@ buildscript {
 
         // NOTE: Do not place your application dependencies here; they belong
         // in the individual module build.gradle files
+        classpath 'com.github.snowdream.toybricks:android-toybricks-gradle-plugin:0.9.10'
     }
 }
 

@@ -32,6 +32,9 @@ dependencies {
     // compile 'com.github.snowdream:toybricks:0.9.10'
 }
 
+apply plugin: 'com.github.snowdream.toybricks'
+
+
 apply plugin: 'maven'
 group = 'cn.mycommons'
 version = '0.1'
